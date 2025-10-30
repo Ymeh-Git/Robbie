@@ -3,15 +3,18 @@
 
 <head>
     <meta charset="utf-8" >
-    <title>Accueil - Robbie Lens Photographie</title>
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="style.css" rel="stylesheet" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil - Robbie Lens Photographie</title>
+    <link href="./css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/class.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Michroma&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <p id="first" class="text-white bg-black absolute text-center">Ce site ne prends pas en compte les écrans QHD et +</p>
     <header>
         <nav class="menuNav">
             <div><a href="index.html"><img src="images/logo.png" alt="Logo Robbie Lens" class="logo lien-icone"></a></div>
@@ -21,45 +24,45 @@
                 <a href="tarifs.html">Tarifs</a>
                 <a href="portfolio.html">Portfolio</a>
             </div>
-            <!-- Test pour mon problème de font-size -->
-            <a href="index.html" style="color: black;">Accueil</a>
         </nav>
-        <!-- Test pour mon problème de font-size -->
-        <a href="index.html" style="color: black;">Accueil</a>
     </header>
-    <!-- Test pour mon problème de font-size -->
-    <a href="index.html" style="color: white;">Accueil</a>
     <main>
-        <section> 
-            <div>
-                <div>
-                    <h1>Robbie Lens Photographie</h1>
-                    <p>
+        <section>
+            <div class="wrapper">
+                <div class="one">
+                    <h1 class="text-start">Robbie Lens <br>Photographie</h1>
+                </div>
+                <div class="two">
+                    <p >
                         Où <em>professionalisme</em> s’allie avec <em>passion</em>. Depuis
                         plus de 5 ans maintenant, j’exerce mon métier avec la passion
                         qui m’anime : capturer l’essence de chaque instant.
                     </p>
                 </div>
-                <div><img src="images/robbie-lens.png" alt="Portrait avec effet de la photographe Robbie Lens"></div>
-                
-            </div>
-            <div>
-                <a href="" class="cta">un projet ? </a>
+                <div class="pt-2 three text-start">
+                        <a href="" class="cta">UN PROJET ? ÉCRIVEZ-MOI</a>
+                </div>
+                <div class="four">
+                    <div class="centerFit"><img src="images/robbie-lens.png" alt="Portrait avec effet de la photographe Robbie Lens"><div class="mini-border"></div></div>
+                </div>
             </div>
         </section>
+        <section class="bg-white">
+            <h2 class="text-center text-black">Mon dernier projet</h2>
+        </section>
         <section>
-            <h2>Mon dernier projet</h2>
+            <h3 class="text-center">Parlons de votre projet</h3>
         </section>
     </main>
     <footer>
-        <div class="menuNav">
-            <div><a href="index.html"><img src="images/logo.png" alt="Logo Robbie Lens" class="logo lien-icone"></a></div>
+        <div class="menuFooter">
+            <div class="btnNav"><a href="index.html"><img src="images/logo.png" alt="Logo Robbie Lens" class="logo lien-icone"></a></div>
             <div class="btnNav">
                 <a target="_blank" href="https://twitter.com/" class="lien-icone">
-                    <img src="images/twitter.png" alt="Logo Twitter" height="45px">
+                    <img src="images/twitter.png" alt="Logo Twitter" height="30px">
                 </a>
                 <a target="_blank" href="https://www.instagram.com/" class="lien-icone">
-                    <img src="images/instagram.png" alt="Logo Instagram" width="45px">
+                    <img src="images/instagram.png" alt="Logo Instagram" width="30px">
                 </a>
             </div>
         </div>
