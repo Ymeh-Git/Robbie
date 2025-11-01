@@ -6,8 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accueil - Robbie Lens Photographie</title>
-    <link href="./css/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="./css/class.css">
+    <link rel="stylesheet" href="./css/style.css"> <!-- ./css/class.css est importé dans style.css-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Michroma&display=swap" rel="stylesheet">
@@ -30,17 +29,18 @@
         <section>
             <div class="wrapper">
                 <div class="one">
-                    <h1 class="text-start">Robbie Lens <br>Photographie</h1>
+                    <h1 class="text-start invisible">Robbie Lens </h1>
+                    <h1 class="text-start">Photographie</h1>
                 </div>
-                <div class="two">
-                    <p >
+                <div class="two w-300"> 
+                    <p>
                         Où <em>professionalisme</em> s’allie avec <em>passion</em>. Depuis
                         plus de 5 ans maintenant, j’exerce mon métier avec la passion
                         qui m’anime : capturer l’essence de chaque instant.
                     </p>
                 </div>
                 <div class="pt-2 three text-start">
-                        <a href="" class="cta">UN PROJET ? ÉCRIVEZ-MOI</a>
+                        <a href="./meContacter.html" class="cta">UN PROJET ? ÉCRIVEZ-MOI</a>
                 </div>
                 <div class="four">
                     <div class="centerFit"><img src="images/robbie-lens.png" alt="Portrait avec effet de la photographe Robbie Lens"><div class="mini-border"></div></div>
@@ -49,11 +49,46 @@
         </section>
         <section class="bg-white">
             <h2 class="text-center text-black">Mon dernier projet</h2>
+            <div class="container pt-4 text-center">
+                <div><img src="./images/accueil/element-1.png" alt="" class="w-300 h-300"></div>
+                <div><img src="./images/accueil/element-2.png" alt="" class="w-300 h-300"></div>
+                <div><img src="./images/accueil/element-3.png" alt="" class="w-300 h-300"></div>
+                <div><img src="./images/accueil/element-4.png" alt="" class="w-300 h-300"></div>
+                <div><img src="./images/accueil/element-5.png" alt="" class="w-300 h-300"></div>
+                <div><img src="./images/accueil/element-6.png" alt="" class="w-300 h-300"></div>
+            </div>
+            <div class="text-center pt-4">
+                <a href="./portfolio.html" class="cta">VOIR MON PORTFOLIO</a>
+            </div>
         </section>
         <section>
             <h3 class="text-center">Parlons de votre projet</h3>
+            <form action="" id="yourProjectForm">
+                <div class="form">
+                    <div class="p-2">
+                        <label for="name" class="text-white">Nom</label>
+                        <br>
+                        <input type="text" id="name" name="name">
+                    </div>
+                    <div class="p-2">
+                        <label for="email" class="text-white">Email</label>
+                        <br>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div class="p-2">
+                        <label for="message" class="text-white">Message</label>
+                        <br>
+                        <textarea id="message" name="message"></textarea>
+                    </div>
+                </div>
+                
+                <div class="text-center pt-4">
+                    <a href="mailto:exemple@gmail.com" class="cta">ENVOYER</a>
+                </div>
+            </form>
+
         </section>
-    </main>
+    </main> 
     <footer>
         <div class="menuFooter">
             <div class="btnNav"><a href="index.html"><img src="images/logo.png" alt="Logo Robbie Lens" class="logo lien-icone"></a></div>

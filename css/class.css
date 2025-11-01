@@ -5,6 +5,15 @@
   --colorPurpleLight: #acaeed;
 }
 
+/* Here are some class's that I use only for certain purposes (@media screen and(width: ***px)
+!!! KEEP THIS AREA UNDER COMMENT SECTION !!!
+
+.invisible{
+  font-size: 0px;
+}
+
+*/
+
 /* Paddings */
 .p-1{
   padding: 5px;
@@ -195,6 +204,9 @@
 .w-225{
   width: 225px;
 }
+.w-255{
+  width: 255px;
+}
 .w-300{
   width: 300px;
 }
@@ -209,6 +221,9 @@
 }
 .h-225{
   height: 225px;
+}
+.h-255{
+  height: 255px;
 }
 .h-300{
   height: 300px;
@@ -295,6 +310,12 @@
   text-align:end;
 }
 /* ---------- */
+
+/* align */
+.align-center{
+  align-content: center;
+}
+/* ----- */
 
 /* Background */
 .bg-white{
